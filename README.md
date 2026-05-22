@@ -7,7 +7,8 @@ Aplicación backend para autenticación con LinkedIn, Google y Microsoft, diseñ
 - .NET 10 SDK
 - PostgreSQL ejecutando en `localhost:5432`
 - Un frontend compatible ((https://github.com/santiagoGal7/AuthenticationLinkedin.NET))
-
+## Web publica
+https://unchainable-keri-semiexternally.ngrok-free.dev/
 ## Estructura principal
 
 - `Api/`: proyecto backend ASP.NET Core
