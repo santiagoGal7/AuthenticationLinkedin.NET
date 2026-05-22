@@ -1,4 +1,4 @@
-# 🔐 AuthenticationLinkedin.NET — Backend API
+# AuthenticationLinkedin.NET — Backend API
 
 API REST en **.NET 10** que implementa autenticación completa al estilo LinkedIn: registro local, login con email/contraseña, OAuth con Google y Microsoft, verificación de email por código y flujo de onboarding.
 
@@ -6,12 +6,12 @@ API REST en **.NET 10** que implementa autenticación completa al estilo LinkedI
 
 | Parte | Repositorio |
 |---|---|
-| 🖥️ Frontend principal | [FrontendAuthenticationLinkedin](https://github.com/Kevinsierra1/FrontendAuthenticationLinkedin.git) |
-| 📁 Práctica | [Practica](https://github.com/Amarillo2410/Practica.git) |
+| Frontend principal | [FrontendAuthenticationLinkedin](https://github.com/Kevinsierra1/FrontendAuthenticationLinkedin.git) |
+| Práctica | [Practica](https://github.com/Amarillo2410/Practica.git) |
 
 ---
 
-## ✨ Características principales
+## Características principales
 
 - Registro y login local con email/contraseña (hash PBKDF2)
 - Login con **Google** y **Microsoft** (OAuth 2.0 via ID Token)
@@ -22,7 +22,7 @@ API REST en **.NET 10** que implementa autenticación completa al estilo LinkedI
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **.NET 10** / ASP.NET Core
 - **PostgreSQL** + Entity Framework Core 10
@@ -33,7 +33,7 @@ API REST en **.NET 10** que implementa autenticación completa al estilo LinkedI
 
 ---
 
-## 🚀 Requisitos y arranque
+## Requisitos y arranque
 
 **Requisitos:** .NET 10 SDK · PostgreSQL en `localhost:5432`
 
@@ -53,7 +53,7 @@ La API queda en **http://localhost:5152** — Swagger en **http://localhost:5152
 
 ---
 
-## ⚙️ Variables de entorno opcionales
+## Variables de entorno opcionales
 
 | Variable | Uso |
 |---|---|
@@ -69,7 +69,7 @@ Para **Google OAuth**, el `ClientId` debe coincidir en:
 
 ---
 
-## 📡 Endpoints
+## Endpoints
 
 | Método | Ruta | Descripción |
 |---|---|---|
@@ -85,7 +85,7 @@ Para **Google OAuth**, el `ClientId` debe coincidir en:
 
 ---
 
-## 📁 Estructura
+## Estructura
 
 ```
 AuthenticationLinkedin.NET/
